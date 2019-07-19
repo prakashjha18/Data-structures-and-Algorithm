@@ -1,2 +1,2 @@
-# Data-structures-and-Algorithm
-ds and algo in java
+# Data-structures-and-Algo
+implementation od data structures and algorithm in java
