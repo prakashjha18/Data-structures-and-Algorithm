@@ -86,33 +86,18 @@ class BinarySearchTreeByLinkedList
     public void maxDepth(BinaryNode node)  
     { 
 		int a  = 0;
-		int b = 0;
+		
 		BinaryNode temp1  = node;
 		BinaryNode temp2  = node;
 		
-		while (temp1 != null )
+		while (temp1 != null &&  temp2 != null )
 		{
 			a++;
 			temp1 = temp1.getLeft();
 
 		}
-		while (temp2 != null )
-		{
-			b++;
-			temp2 = temp2.getRight();
-
-		}
-		if(a>b)
-		{
-			System.out.println(a);
-			//return null;
-		}
-		else
-		{
-			System.out.println(b);
-			//return null;
-		}
 		
+		System.out.println(a);
     } 
 }
 public class binarytreegetheight
@@ -126,6 +111,9 @@ public class binarytreegetheight
 		tree.insert(3);
 		tree.insert(4);
 		tree.insert(5);
+		tree.insert(6);
+		tree.insert(7);
+		tree.insert(8);
         System.out.println("Height of tree is : ");
         tree.maxDepth(tree.root); 
     } 
