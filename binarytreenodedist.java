@@ -127,16 +127,32 @@ class BinarySearchTreeByLinkedList
         int d2 = findLevel(lca, b, 0); 
         return d1 + d2; 
     }
+    // public int findLevel(BinaryNode root, int a, int level) 
+    // { 
+    //     if (root == null) 
+    //         return -1; 
+    //     if (root.getValue() == a) 
+    //         return level; 
+    //     int left = findLevel(root.getLeft(), a, level + 1); 
+    //     if (left == -1) 
+    //         return findLevel(root.getRight(), a, level + 1); 
+    //     return left; 
+    // }
     public int findLevel(BinaryNode root, int a, int level) 
     { 
         if (root == null) 
             return -1; 
         if (root.getValue() == a) 
             return level; 
-        int left = findLevel(root.getLeft(), a, level + 1); 
-        if (left == -1) 
-            return findLevel(root.getRight(), a, level + 1); 
-        return left; 
+        if(a<root.getValue()){
+            int dist = findLevel(root.getLeft(), a, level + 1);
+            return dist;
+        }
+        if(a>root.getValue()){
+            int dist = findLevel(root.getRight(), a, level + 1);
+            return dist;
+        }
+        return level;
     }
 }
 public class binarytreenodedist
@@ -152,10 +168,12 @@ public class binarytreenodedist
 		tree.insert(12);
 		tree.insert(10);
 		tree.insert(14);
-		
+        tree.insert(16);
+        tree.insert(25);
         System.out.println("Dist(10, 22) = "+ tree.findDistance( 10, 22));
         System.out.println("Dist(8, 22) = "+ tree.findDistance( 8, 22));
         System.out.println("Dist(4, 14) = "+ tree.findDistance( 4, 14));
+        System.out.println("Dist(16, 25) = "+ tree.findDistance( 16, 25));
         //tree.levelOrderTraversal();
     } 
 }
