@@ -1,4 +1,4 @@
-public class Number_Factors_DC {
+public class Number_Factors_DC { // express as sum of 1,3 & 4
 
 	public int waysToGetN(int n) {
 		if ((n == 0) || (n == 1) || (n == 2)) // { }, {1}, {1,1}
