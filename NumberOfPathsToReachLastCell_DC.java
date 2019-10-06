@@ -1,4 +1,4 @@
-public class NumberOfPathsToReachLastCell_DC { // here we are given min cost and we have to find number of ways to reach last cell in those cost
+public class NumberOfPathsToReachLastCell_DC { // here we are given min cost and we have to find number of ways to reach last cell in those cost almost same as min cost to reach last cell
 
 	public int numberOfPaths(int array[][], int row, int col, int cost) {
 		if (cost < 0) {//BASE CASE
