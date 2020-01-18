@@ -1,5 +1,5 @@
 # Data-structures-and-Algorithm
-implementation od data structures and algorithm in java
+implementation of data structures and algorithm in java
 
 ## 2d array
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/TwoDimensionalArrayMain.java
