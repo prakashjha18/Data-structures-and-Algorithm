@@ -126,52 +126,53 @@ https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/PrimsM
 
 # greedy algorithm
 
-## activity selection method
+## 1) activity selection method
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/ActivitySelectionMain.java
 
-## coin change problem
+## 2) coin change problem
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/CoinChangeProblemMain.java
 
-## fractional knapsack
+## 3) fractional knapsack
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/FractionalKnapsackMain.java
 
 # Divide & conquer
 
-## fibonacci
+## 1) fibonacci
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/Fibonacci_DC.java
 
-## factors of given no as sum of 1,3&4
+## 2) factors of given no as sum of 1,3&4
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/Number_Factors_DC.java
 
-## house thief problem
+## 3) house thief problem
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/House_Thieft_DC.java
 
-## convert one string to another
+## 4) convert one string to another
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/ConvertOneStringToAnother_DC.java
 
-## 0/1 knapsack problem
+## 5) 0/1 knapsack problem
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/ZeroOneKnapsack_DC.java
 
-## Longest Common Subsequence
+## 6) Longest Common Subsequence
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/LongestCommonSubsequence_DC.java
 
-## Longest Palindromic Subsequence
+## 7) Longest Palindromic Subsequence
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/LongestPalindromicSubsequence_DC.java
 
-## conversion of one string to another
+## 8) conversion of one string to another
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/ConvertOneStringToAnother_DC.java
 
-## Longest Palindromic substring
+## 9) Longest Palindromic substring
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/LongestPalindromicSubstring_DC.java
 
-## Min Cost To Reach Last Cell in 2DArray
+## 10) Min Cost To Reach Last Cell in 2DArray
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/MinCostToReachLastCellI_in2DArray_DC.java
 
-## number of paths to reach last cell with given cost
+## 11) number of paths to reach last cell with given cost
 https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/NumberOfPathsToReachLastCell_DC.java
 
 # Dynamic Programming
 list of problems and their solution in Dynamic programming
+
 https://github.com/prakashjha18/Data-structures-and-Algorithm/tree/master/Dynamic%20Programming
 
 
