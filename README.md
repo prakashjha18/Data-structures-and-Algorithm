@@ -174,12 +174,3 @@ https://github.com/prakashjha18/Data-structures-and-Algorithm/blob/master/Number
 list of problems and their solution in Dynamic programming
 
 https://github.com/prakashjha18/Data-structures-and-Algorithm/tree/master/Dynamic%20Programming
-
-
-
-
-
-
-
-
-
