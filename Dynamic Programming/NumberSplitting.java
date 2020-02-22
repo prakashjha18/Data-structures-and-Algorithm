@@ -18,9 +18,9 @@ public class NumberSplitting
 	    }
 	    
 	    // Base cases
-        maxProduct[1] = 0;
-        maxProduct[2] = 1;
-        
+		maxProduct[1] = 0;
+		maxProduct[2] = 1;
+
         // 'i' is for setting the number to be split
         for(int i = 3; i <= N; i++){
             // 'j' fixes the first split to be made
